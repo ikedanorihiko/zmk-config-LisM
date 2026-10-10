@@ -274,7 +274,7 @@
 &kp QUESTION    &kp DOUBLE_QUOTES  &kp EQUAL   &kp ASTRK  &kp CARET                        &trans         &kp UNDER       &kp UP_ARROW     &mod_morph_lp_rp       &mod_morph_l3_percent
 &kp AT_SIGN     &kp SLASH          &kp DOLLAR  &kp SQT    &kp GRAVE                        &kp HASH       &kp LEFT        &kp RIGHT_ARROW  &kp RIGHT_PARENTHESIS  &kp ENTER
 &kp LEFT_SHIFT  &kp EXCL           &kp COLON   &kp F10    &kp BACKSLASH                    &kp AMPERSAND  &kp DOWN_ARROW  &trans           &kp PAGE_UP            &kp RIGHT_SHIFT
-&trans          &trans             &trans      &trans     &trans         &trans    &trans  &kp ENTER      &trans          &mkp MB4         &kp PAGE_DOWN          &mkp MB5
+&trans          &trans             &trans      &trans     &trans         &trans    &trans  &kp LA(GRAVE)  &trans          &mkp MB4         &kp PAGE_DOWN          &mkp MB5
                                    &trans      &trans     &trans                           &trans         &trans          &trans
             >;
         };
