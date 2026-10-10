@@ -29,7 +29,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-         td_tab_q: td_tab_q {
+        td_tab_q: td_tab_q {
             compatible = "zmk,behavior-tap-dance";
             label = "td_tab_q";
             #binding-cells = <0>;
@@ -160,6 +160,15 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        L3 {
+            bindings = <&mo 2>;
+            key-positions = <34 23>;
         };
     };
 
