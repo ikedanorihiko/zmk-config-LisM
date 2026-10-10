@@ -153,19 +153,19 @@ layers:
   - (
   - )
   - ''
-  - '~'
-  - '!'
-  - '@'
-  - '#'
+  - {t: ▽, type: trans}
+  - _
+  - $$mdi:arrow-up-bold$$
+  - {t: ▽, type: trans}
   - $
   - '@'
-  - F5
-  - '['
-  - ']'
+  - /
+  - $
+  - SQT
   - ''
-  - '`'
-  - _
-  - ''''
+  - '#'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - '"'
   - {t: \, type: held}
   - KP NUMLOCK
@@ -173,8 +173,8 @@ layers:
   - '{'
   - '}'
   - ''
-  - '|'
-  - '%'
+  - '&'
+  - $$mdi:arrow-down-bold$$
   - ^
   - '&'
   - '*'
