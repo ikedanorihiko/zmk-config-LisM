@@ -105,9 +105,9 @@ layers:
   - '9'
   - '='
   - F1
-  - F2
-  - F7
-  - F10
+  - '7'
+  - '8'
+  - '9'
   - $$mdi:apple-keyboard-shift$$
   - '*'
   - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
@@ -115,9 +115,9 @@ layers:
   - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '-', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '4'
+  - '5'
+  - '6'
   - $$mdi:apple-keyboard-command$$
   - /
   - '1'
@@ -125,9 +125,9 @@ layers:
   - '3'
   - +
   - $$mdi:mouse-right-click-outline$$
-  - ''
-  - $$mdi:arrow-down-bold$$
-  - ''
+  - '1'
+  - '2'
+  - '3'
   - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - .
