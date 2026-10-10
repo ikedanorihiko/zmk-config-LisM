@@ -405,10 +405,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(700, 196)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F12</text>
-<a href="#Device-Layer">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">Device Lay…</tspan></text>
-</a></g>
+<text x="0" y="0" class="key tap">SEMI</text>
+</g>
 <g transform="translate(146, 238)" class="key keypos-42">
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key"/>
 <use href="#mdi:pan-left" xlink:href="#mdi:pan-left" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-left"/>
@@ -1176,9 +1174,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(644, 196)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(700, 196)" class="key held keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-9" y="-9" height="18" width="18.0" class="key held tap glyph mdi:progress-download"/>
+<g transform="translate(700, 196)" class="key keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:progress-download"/>
 </g>
 <g transform="translate(146, 238)" class="key trans keypos-42">
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key trans"/>

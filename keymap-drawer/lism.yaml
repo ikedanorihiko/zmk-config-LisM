@@ -42,7 +42,7 @@ layers:
   - $$mdi:pan-up$$
   - '-'
   - '='
-  - {t: F12, h: Device Layer}
+  - SEMI
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
@@ -238,7 +238,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '$$mdi:progress-download$$', type: held}
+  - $$mdi:progress-download$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
