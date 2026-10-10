@@ -138,7 +138,7 @@ layers:
   - {t: ▽, type: trans}
   - LANG1
   - $$mdi:arrow-up-bold$$
-  - $$mdi:skip-previous-outline$$
+  - '0'
   - $$mdi:skip-next-outline$$
   - F12
   - $$mdi:arrow-left-bold$$
