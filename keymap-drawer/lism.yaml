@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: '$$mdi:keyboard-return$$', h: Mark Layer}
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
