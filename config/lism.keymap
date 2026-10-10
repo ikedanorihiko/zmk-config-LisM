@@ -292,7 +292,7 @@
 
         layer_5 {
             status = "reserved";
-            display-name = "Brank Layer";
+            display-name = "Function Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
