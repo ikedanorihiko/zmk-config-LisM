@@ -205,7 +205,7 @@
 &trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
 &kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &kp KP_SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
 &kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &kp KP_PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH
-&trans        &kp DOT            &kp NUMBER_0         &kp UP             &kp LANG2        &trans    &trans  &kp KP_MINUS     &kp UP        &kp NUMBER_0  &kp PERIOD    &kp COLON
+&trans        &trans             &trans               &kp UP             &trans           &trans    &trans  &kp KP_MINUS     &kp UP        &kp NUMBER_0  &kp PERIOD    &kp COLON
                                  &kp LEFT             &kp DOWN           &kp RIGHT                          &kp LEFT         &kp DOWN      &kp RIGHT
             >;
 
