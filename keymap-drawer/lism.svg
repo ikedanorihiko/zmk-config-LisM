@@ -431,6 +431,13 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key"/>
 <use href="#mdi:pan-right" xlink:href="#mdi:pan-right" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:pan-right"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<a href="#Number-Layer">
+<text x="224" y="168" class="combo tap layer-activator">
+<tspan x="224" dy="-0.6em">Number</tspan><tspan x="224" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 308)" class="layer-Mouse Layer">
@@ -632,6 +639,13 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<a href="#Number-Layer">
+<text x="224" y="168" class="combo tap layer-activator">
+<tspan x="224" dy="-0.6em">Number</tspan><tspan x="224" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 616)" class="layer-Number Layer">
@@ -830,6 +844,13 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<a href="#Number-Layer">
+<text x="224" y="168" class="combo tap layer-activator">
+<tspan x="224" dy="-0.6em">Number</tspan><tspan x="224" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 924)" class="layer-Mark Layer">
@@ -1026,6 +1047,13 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<a href="#Number-Layer">
+<text x="224" y="168" class="combo tap layer-activator">
+<tspan x="224" dy="-0.6em">Number</tspan><tspan x="224" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 1232)" class="layer-Device Layer">
@@ -1202,6 +1230,13 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-20" y="-12" width="41" height="24" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="155" width="28" height="26" class="combo"/>
+<a href="#Number-Layer">
+<text x="224" y="168" class="combo tap layer-activator">
+<tspan x="224" dy="-0.6em">Number</tspan><tspan x="224" dy="1.2em">Layer</tspan>
+</text>
+</a></g>
 </g>
 </g>
 <text x="758.0" y="1568.0" class="footer">LisM KEYMAPS | Created with keymap-drawer</text></svg>
