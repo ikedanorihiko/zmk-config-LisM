@@ -130,10 +130,10 @@ layers:
   - '3'
   - /
   - {t: ▽, type: trans}
-  - .
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - $$mdi:arrow-up-bold$$
-  - LANG2
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - KP MINUS
