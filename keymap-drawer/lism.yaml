@@ -168,11 +168,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - '"'
   - {t: \, type: held}
-  - KP NUMLOCK
-  - F11
-  - '{'
+  - $$mdi:apple-keyboard-shift$$
+  - '!'
+  - ':'
   - '}'
-  - ''
+  - \
   - '&'
   - $$mdi:arrow-down-bold$$
   - ^
