@@ -197,11 +197,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Device Layer:
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -217,7 +212,12 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
   - ''
   - ''
   - ''
@@ -226,9 +226,9 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
+  - ''
   - BT CLR ALL
+  - ''
   - ''
   - ''
   - ''
@@ -238,7 +238,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:progress-download$$
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
