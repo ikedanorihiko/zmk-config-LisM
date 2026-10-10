@@ -29,16 +29,137 @@
             bindings = <&kp>, <&kp>;
         };
 
+         td_tab_q: td_tab_q {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_tab_q";
+            #binding-cells = <0>;
+            bindings = <&kp TAB>, <&kp Q>;
+
+            tapping-term-ms = <200>;
+        };
+
+        td_semicolon_colon: td_semicolon_colon {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_colon_behavior";
+            #binding-cells = <0>;
+            bindings = <&kp SEMICOLON>, <&kp COLON>;
+
+            tapping-term-ms = <250>;
+        };
+
+        mod_morph_lp_rp: mod_morph_lp_rp_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mod_morph_lp_rp";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RPAR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mod_morph_q_esc: mod_morph_q_esc_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mod_morph_q_esc";
+            bindings = <&kp ESCAPE>, <&kp Q>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
+
+        mod_morph_bs_p: mod_morph_bs_p_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mod_morph_bs_p";
+            bindings = <&kp BACKSPACE>, <&kp P>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        mod_morph_tab_q: mod_morph_tab_q_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "mod_morph_tab_q";
+            bindings = <&kp TAB>, <&kp Q>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
+
+        mod_morph_bracket: mod_morph_bracket_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_BRACKET";
+            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        mod_morph_brace: mod_morph_brace_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_BRACE";
+            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        mod_morph_del_percent: mod_morph_del_percent_ {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_DEL_PERCENT";
+            bindings = <&kp DELETE>, <&kp PERCENT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
         hold_tap_kp_kp: hold_tap_kp_kp_ {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP_KP_KP";
+            label = "HOLD_TAP";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <90>;
-            require-prior-idle-ms = <90>;
             flavor = "balanced";
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <90>;
+            quick-tap-ms = <90>;
+        };
+
+        hold_tap_lt_kp: hold_tap_lt_kp_ {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_LT_KP";
+            bindings = <&lt>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <100>;
+            quick-tap-ms = <100>;
+        };
+
+        toggle_mode_off: toggle_mode_off {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "TOGGLE_MODE_OFF";
+            #binding-cells = <1>;
+            toggle-mode = "off";
+        };
+
+        hold_tap_lt5: hold_tap_lt5 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_LT5";
+            bindings = <&lt>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <100>;
+            quick-tap-ms = <100>;
+        };
+
+        mod_morph_l2_percent: mod_morph_l2_percent {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_L2_PERCENT";
+            bindings = <&kp DELETE>, <&kp PERCENT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
         };
     };
 
