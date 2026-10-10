@@ -210,7 +210,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -231,7 +231,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - $$mdi:lock-open-variant-outline$$
   - ''
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [34, 23]
-  k: Number Layer
+  k: Mark Layer
 - p: [11, 12]
   k: $$mdi:mouse-right-click-outline$$
   l: [Mouse Layer]
@@ -262,10 +262,10 @@ combos:
 - p: [12, 13]
   k: '&toggle_mode_off 1'
 - p: [34, 13]
-  k: Device Layer
+  k: Number Layer
 - p: [30, 31]
   k: $$mdi:mouse-right-click-outline$$
 - p: [11, 18]
   k: Alt+`
 - p: [34, 12]
-  k: Device Layer
+  k: Number Layer
