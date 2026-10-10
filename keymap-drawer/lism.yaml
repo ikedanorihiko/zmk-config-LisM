@@ -60,17 +60,17 @@ layers:
   - $$mdi:page-next-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: ▽, type: trans}
-  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$mdi:mouse-left-click-outline$$
   - {t: ▽, type: trans}
   - $$mdi:format-vertical-align-top$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:pan-up$$
   - $$mdi:pan-down$$
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -80,7 +80,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:mouse-right-click-outline$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
