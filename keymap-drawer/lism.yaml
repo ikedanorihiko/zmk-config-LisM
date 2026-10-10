@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lism}
 layers:
   Default Layer:
-  - Q
+  - {t: '$$mdi:keyboard-esc$$', s: Q}
   - W
   - E
   - R
@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: '$$mdi:backspace$$', s: P}
   - A
   - S
   - D
@@ -55,32 +55,32 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:keyboard-space$$
-  - $$mdi:page-previous-outline$$
-  - $$mdi:page-next-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: ▽, type: trans}
-  - $$mdi:format-vertical-align-top$$
-  - $$mdi:mouse-left-click-outline$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:pan-up$$
-  - $$mdi:pan-down$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:format-vertical-align-bottom$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
-  - $$mdi:mouse-right-click-outline$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,9 +89,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:arrow-down-bold$$
   - {t: ▽, type: trans}
-  - Gui+W
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,31 +99,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Number Layer:
+  - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - KP MULTIPLY
   - '7'
   - '8'
   - '9'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '*'
-  - {t: '4', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '5', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '-', h: '$$mdi:apple-keyboard-control$$'}
+  - HOME
+  - Gui+Ctl+$$mdi:arrow-left-bold$$
+  - Gui+Sft+$$mdi:arrow-left-bold$$
+  - Gui+Ctl+$$mdi:arrow-right-bold$$
+  - END
   - KP SLASH
   - '4'
   - '5'
   - '6'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - /
-  - '1'
-  - '2'
-  - '3'
-  - +
+  - $$mdi:apple-keyboard-shift$$
+  - '['
+  - '{'
+  - '}'
+  - ']'
   - KP PLUS
   - '1'
   - '2'
@@ -156,8 +156,8 @@ layers:
   - {t: ▽, type: trans}
   - _
   - $$mdi:arrow-up-bold$$
-  - {t: ▽, type: trans}
-  - $
+  - {t: (, s: RPAR}
+  - {t: '$$mdi:backspace-reverse-outline$$', s: '%'}
   - '@'
   - /
   - $
@@ -166,8 +166,8 @@ layers:
   - '#'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
-  - {t: \, type: held}
+  - )
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - $$mdi:apple-keyboard-shift$$
   - '!'
   - ':'
@@ -175,7 +175,7 @@ layers:
   - \
   - '&'
   - $$mdi:arrow-down-bold$$
-  - ^
+  - {t: ▽, type: trans}
   - PgUp
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
@@ -185,7 +185,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Alt+`
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - PgDn
@@ -247,7 +247,7 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [34, 23]
-  k: Mark Layer
+  k: Number Layer
 - p: [11, 12]
   k: $$mdi:mouse-right-click-outline$$
   l: [Mouse Layer]
@@ -262,10 +262,10 @@ combos:
 - p: [12, 13]
   k: '&toggle_mode_off 1'
 - p: [34, 13]
-  k: Number Layer
+  k: Function Layer
 - p: [30, 31]
   k: $$mdi:mouse-right-click-outline$$
 - p: [11, 18]
   k: Alt+`
 - p: [34, 12]
-  k: Number Layer
+  k: Function Layer
