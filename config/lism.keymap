@@ -170,6 +170,72 @@
             bindings = <&mo 2>;
             key-positions = <34 23>;
         };
+
+
+        right_click {
+            bindings = <&mkp MB2>;
+            key-positions = <11 12>;
+            layers = <1>;
+        };
+
+        Window {
+            bindings = <&kp RIGHT_WIN>;
+            key-positions = <17 16>;
+        };
+
+        Control {
+            bindings = <&kp RCTRL>;
+            key-positions = <18 17>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <8 9>;
+            timeout-ms = <125>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <0 1>;
+            timeout-ms = <125>;
+        };
+
+        toggle_off {
+            bindings = <&toggle_mode_off 1>;
+            key-positions = <12 13>;
+            timeout-ms = <90>;
+        };
+
+        layer5 {
+            bindings = <&mo 5>;
+            key-positions = <34 23>;
+            timeout-ms = <75>;
+        };
+
+        layer4 {
+            bindings = <&mo 4>;
+            key-positions = <34 13>;
+            timeout-ms = <75>;
+        };
+
+        Right_Click2 {
+            bindings = <&mkp MB2>;
+            key-positions = <30 31>;
+        };
+
+        us_kana {
+            bindings = <&kp LA(GRAVE)>;
+            key-positions = <11 18>;
+        };
+
+        layer4_2 {
+            bindings = <&mo 4>;
+            key-positions = <34 12>;
+            timeout-ms = <75>;
+        };
+
+
+
     };
 
     keymap {
