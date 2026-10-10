@@ -40,7 +40,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Number Layer}
   - {t: '$$mdi:backspace$$', h: Mark Layer}
   - $$mdi:pan-up$$
-  - '-'
+  - {t: '-', h: Device Layer}
   - '='
   - SEMI
   - $$mdi:pan-left$$
@@ -236,7 +236,7 @@ layers:
   - $$mdi:lock-open-variant-outline$$
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - {t: ▽, type: trans}
