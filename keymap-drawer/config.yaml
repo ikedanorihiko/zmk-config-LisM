@@ -1,12 +1,5 @@
 parse_config:
-  layer_name_map:
-    "0": "BASE"
-    "1": "MOUSE"
-    "2": "RAISE"
-    "3": "NAV"
-    "4": "NUM"
-    "5": "FUNCTION"
-    
+   
   raw_binding_map:
     # self behaviors
     "&kp RG(LEFT)":
@@ -122,7 +115,9 @@ parse_config:
 
     "&studio_unlock":
       tap: $$mdi:lock-open-variant-outline$$
-
+    
+    "&mo 5":
+      tap: "Function Layer"
 
   zmk_keycode_map:
     # Symbols
