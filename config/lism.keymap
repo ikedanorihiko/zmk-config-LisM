@@ -171,7 +171,6 @@
             key-positions = <34 23>;
         };
 
-
         right_click {
             bindings = <&mkp MB2>;
             key-positions = <11 12>;
@@ -206,12 +205,6 @@
             timeout-ms = <90>;
         };
 
-        layer5 {
-            bindings = <&mo 5>;
-            key-positions = <34 23>;
-            timeout-ms = <75>;
-        };
-
         layer4 {
             bindings = <&mo 4>;
             key-positions = <34 13>;
@@ -233,9 +226,6 @@
             key-positions = <34 12>;
             timeout-ms = <75>;
         };
-
-
-
     };
 
     keymap {
