@@ -166,7 +166,7 @@ layers:
   - '#'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - '"'
+  - {t: ▽, type: trans}
   - {t: \, type: held}
   - $$mdi:apple-keyboard-shift$$
   - '!'
@@ -177,7 +177,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - ^
   - PgUp
-  - '*'
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
