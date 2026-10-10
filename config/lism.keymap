@@ -271,10 +271,10 @@
         layer_3 {
             display-name = "Mark Layer";
             bindings = <
-&kp QUESTION    &kp DOUBLE_QUOTES  &kp EQUAL   &kp ASTRK  &kp CARET                        &trans         &kp UNDER       &kp UP_ARROW     &trans         &kp DOLLAR
-&kp AT_SIGN     &kp SLASH          &kp DOLLAR  &kp SQT    &kp GRAVE                        &kp HASH       &kp LEFT        &kp RIGHT_ARROW  &trans         &kp BACKSLASH
-&kp LEFT_SHIFT  &kp EXCL           &kp COLON   &kp F10    &kp BACKSLASH                    &kp AMPERSAND  &kp DOWN_ARROW  &kp CARET        &kp PAGE_UP    &kp RIGHT_SHIFT
-&trans          &trans             &trans      &trans     &trans         &trans    &trans  &kp ENTER      &trans          &mkp MB4         &kp PAGE_DOWN  &mkp MB5
+&kp QUESTION    &kp DOUBLE_QUOTES  &kp EQUAL   &kp ASTRK  &kp CARET                        &trans         &kp UNDER       &kp UP_ARROW     &mod_morph_bracket  &kp DOLLAR
+&kp AT_SIGN     &kp SLASH          &kp DOLLAR  &kp SQT    &kp GRAVE                        &kp HASH       &kp LEFT        &kp RIGHT_ARROW  &trans              &kp ENTER
+&kp LEFT_SHIFT  &kp EXCL           &kp COLON   &kp F10    &kp BACKSLASH                    &kp AMPERSAND  &kp DOWN_ARROW  &trans           &kp PAGE_UP         &kp RIGHT_SHIFT
+&trans          &trans             &trans      &trans     &trans         &trans    &trans  &kp ENTER      &trans          &mkp MB4         &kp PAGE_DOWN       &mkp MB5
                                    &trans      &trans     &trans                           &trans         &trans          &trans
             >;
         };
