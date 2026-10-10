@@ -166,8 +166,8 @@
     combos {
         compatible = "zmk,combos";
 
-        L3 {
-            bindings = <&mo 2>;
+        layer3 {
+            bindings = <&mo 3>;
             key-positions = <34 23>;
         };
 
@@ -206,7 +206,7 @@
         };
 
         layer4 {
-            bindings = <&mo 4>;
+            bindings = <&mo 2>;
             key-positions = <34 13>;
             timeout-ms = <75>;
         };
@@ -222,7 +222,7 @@
         };
 
         layer4_2 {
-            bindings = <&mo 4>;
+            bindings = <&mo 2>;
             key-positions = <34 12>;
             timeout-ms = <75>;
         };
