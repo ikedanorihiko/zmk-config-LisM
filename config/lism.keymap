@@ -291,7 +291,7 @@
         };
 
         layer_5 {
-            status = "reserved";
+#            status = "reserved";
             display-name = "Function Layer";
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                     &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
