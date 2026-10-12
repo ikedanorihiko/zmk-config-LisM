@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - {t: '$$mdi:keyboard-return$$', h: Mark Layer}
+  - {t: '$$mdi:keyboard-return$$', h: Number Layer}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
@@ -118,7 +118,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', type: held}
   - $$mdi:apple-keyboard-shift$$
   - '['
   - '{'
@@ -134,7 +134,7 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP MINUS
   - $$mdi:arrow-up-bold$$
@@ -167,7 +167,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - )
-  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - '!'
   - ':'
@@ -182,7 +182,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+`
