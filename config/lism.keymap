@@ -219,6 +219,7 @@
         us_kana {
             bindings = <&kp LA(GRAVE)>;
             key-positions = <11 18>;
+            layers = <0>;
         };
 
         layer5_2 {
