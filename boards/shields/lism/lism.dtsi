@@ -162,10 +162,6 @@
         status = "disabled";
 
 
-        // 既存の input-processors があれば、その先頭に足す
-        input-processors = <&aml_temp_layer 1 600>;
-
-
     };
 
 
