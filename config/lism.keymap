@@ -1,10 +1,6 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200
 
 #include <dt-bindings/zmk/mouse.h>
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 
 &mt {
     tapping-term-ms = <300>;
@@ -21,12 +17,15 @@
             bindings = <&msc>, <&msc>;
 
             tap-ms = <20>;
+            label = "sensor_rotate_msc";
         };
 
         encoder_kp: sensor_rotate_kp {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
+
+            label = "sensor_rotate_kp";
         };
 
         td_tab_q: td_tab_q {
@@ -330,7 +329,6 @@
         };
     };
 };
-
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200
 
@@ -664,4 +662,3 @@
         };
     };
 };
-
