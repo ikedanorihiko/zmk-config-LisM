@@ -37,7 +37,7 @@
             tapping-term-ms = <200>;
         };
 
-        td_semicolon_colon: td_semicolon_colon {
+        td_semicolon_colon: td_semicolon_colon_ {
             compatible = "zmk,behavior-tap-dance";
             label = "td_colon_behavior";
             #binding-cells = <0>;
