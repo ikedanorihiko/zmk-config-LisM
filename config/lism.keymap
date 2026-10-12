@@ -7,7 +7,9 @@
     flavor = "balanced";
 };
 
-&lt { quick-tap-ms = <300>; };
+&lt {
+    quick-tap-ms = <300>;
+};
 
 / {
     behaviors {
