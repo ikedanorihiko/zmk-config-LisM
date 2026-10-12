@@ -15,7 +15,6 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
-
             tap-ms = <20>;
             label = "sensor_rotate_msc";
         };
@@ -24,7 +23,6 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&kp>, <&kp>;
-
             label = "sensor_rotate_kp";
         };
 
@@ -33,7 +31,6 @@
             label = "td_tab_q";
             #binding-cells = <0>;
             bindings = <&kp TAB>, <&kp Q>;
-
             tapping-term-ms = <200>;
         };
 
@@ -42,7 +39,6 @@
             label = "td_colon_behavior";
             #binding-cells = <0>;
             bindings = <&kp SEMICOLON>, <&kp COLON>;
-
             tapping-term-ms = <250>;
         };
 
@@ -50,7 +46,6 @@
             compatible = "zmk,behavior-mod-morph";
             label = "mod_morph_lp_rp";
             bindings = <&kp LEFT_PARENTHESIS>, <&kp RPAR>;
-
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -59,7 +54,6 @@
             compatible = "zmk,behavior-mod-morph";
             label = "mod_morph_q_esc";
             bindings = <&kp ESCAPE>, <&kp Q>;
-
             #binding-cells = <0>;
             mods = <(MOD_RSFT)>;
         };
@@ -68,7 +62,6 @@
             compatible = "zmk,behavior-mod-morph";
             label = "mod_morph_bs_p";
             bindings = <&kp BACKSPACE>, <&kp P>;
-
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
@@ -77,7 +70,6 @@
             compatible = "zmk,behavior-mod-morph";
             label = "mod_morph_tab_q";
             bindings = <&kp TAB>, <&kp Q>;
-
             #binding-cells = <0>;
             mods = <(MOD_RSFT)>;
         };
@@ -86,7 +78,6 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_MORPH_BRACKET";
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
-
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
@@ -104,7 +95,6 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_MORPH_DEL_PERCENT";
             bindings = <&kp DELETE>, <&kp PERCENT>;
-
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
@@ -113,7 +103,6 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_TAP";
             bindings = <&kp>, <&kp>;
-
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
@@ -125,7 +114,6 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOLD_TAP_LT_KP";
             bindings = <&lt>, <&kp>;
-
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
