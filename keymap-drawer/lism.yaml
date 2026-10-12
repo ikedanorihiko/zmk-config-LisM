@@ -175,7 +175,7 @@ layers:
   - \
   - '&'
   - $$mdi:arrow-down-bold$$
-  - {t: ▽, type: trans}
+  - ''
   - PgUp
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
