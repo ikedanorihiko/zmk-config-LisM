@@ -35,14 +35,6 @@
             label = "sensor_rotate_kp";
         };
 
-        td_tab_q: td_tab_q_ {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_tab_q";
-            #binding-cells = <0>;
-            bindings = <&kp TAB>, <&kp Q>;
-
-            tapping-term-ms = <200>;
-        };
 
         td_semicolon_colon: td_semicolon_colon_ {
             compatible = "zmk,behavior-tap-dance";
