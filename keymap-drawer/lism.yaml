@@ -267,5 +267,6 @@ combos:
   k: $$mdi:mouse-right-click-outline$$
 - p: [11, 18]
   k: Alt+`
+  l: [Default Layer]
 - p: [34, 12]
   k: Function Layer
