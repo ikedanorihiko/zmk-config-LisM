@@ -162,6 +162,22 @@
         status = "disabled";
     };
 
+
+
+
+  // AML(オートマウスレイヤー)用
+    input_processors {
+        aml_temp_layer: aml_temp_layer {
+            compatible = "zmk,input-processor-temp-layer";
+            #input-processor-cells = <2>;
+            require-prior-idle-ms = <150>;
+            // マウスレイヤー中にクリック等で押してもレイヤーを解除しないキー位置
+            excluded-positions = <11 12 13 30>;
+        };
+    };
+
+
+
     /* 充電ステータス */
     chg_stat: chg_stat {
         compatible = "custom,chg-stat";
