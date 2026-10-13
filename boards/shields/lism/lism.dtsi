@@ -174,7 +174,7 @@
             #input-processor-cells = <2>;
             require-prior-idle-ms = <150>;
             // マウスレイヤー中にクリック等で押してもレイヤーを解除しないキー位置
-            excluded-positions = <11 12 13 30>;
+            excluded-positions = <11 12 13 30 31>;
         };
     };
 
