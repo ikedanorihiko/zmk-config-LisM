@@ -202,7 +202,7 @@
         toggle_off {
             bindings = <&toggle_mode_off 1>;
             key-positions = <12 13>;
-            timeout-ms = <90>;
+            timeout-ms = <50>;
         };
 
         layer5 {
