@@ -297,9 +297,6 @@ layers:
 combos:
 - p: [34, 23]
   k: Number Layer
-- p: [11, 12]
-  k: $$mdi:mouse-right-click-outline$$
-  l: [Mouse Layer]
 - p: [17, 16]
   k: RIGHT WIN
 - p: [18, 17]
@@ -308,7 +305,7 @@ combos:
   k: P
 - p: [0, 1]
   k: Q
-- p: [12, 13]
+- p: [12, 11]
   k: '&toggle_mode_off 1'
 - p: [34, 13]
   k: Function Layer
