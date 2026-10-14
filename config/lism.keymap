@@ -171,12 +171,6 @@
             key-positions = <34 23>;
         };
 
-        right_click {
-            bindings = <&mkp MB2>;
-            key-positions = <11 12>;
-            layers = <1>;
-        };
-
         Window {
             bindings = <&kp RIGHT_WIN>;
             key-positions = <17 16>;
@@ -201,7 +195,7 @@
 
         toggle_off {
             bindings = <&toggle_mode_off 1>;
-            key-positions = <12 13>;
+            key-positions = <12 11>;
             timeout-ms = <50>;
         };
 
