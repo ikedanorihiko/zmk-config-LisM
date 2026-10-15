@@ -74,15 +74,6 @@
             mods = <(MOD_LSFT)>;
         };
 
-        mod_morph_tab_q: mod_morph_tab_q_ {
-            compatible = "zmk,behavior-mod-morph";
-            label = "mod_morph_tab_q";
-            bindings = <&kp TAB>, <&kp Q>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_RSFT)>;
-        };
-
         mod_morph_bracket: mod_morph_bracket_ {
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_MORPH_BRACKET";
