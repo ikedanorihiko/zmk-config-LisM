@@ -444,12 +444,6 @@ path.combo { stroke: #7f7f7f; }
 <text x="56" y="28" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 64%">&amp;toggle_mo…</tspan><tspan x="112" dy="1.2em" style="font-size: 64%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
 <path d="M224,140 l20,39" class="combo"/>
 <path d="M224,140 l-20,-39" class="combo"/>
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -458,17 +452,17 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em" style="font-size: 88%">Function</tspan><tspan x="224" dy="1.2em" style="font-size: 88%">Layer</tspan>
 </text>
 </a></g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="47" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M364,84 l-261,0" class="combo"/>
 <path d="M364,84 l261,0" class="combo"/>
 <rect rx="6" ry="6" x="350" y="71" width="28" height="26" class="combo"/>
 <text x="364" y="84" class="combo tap">Alt+`</text>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-8">
 <path d="M196,140 l43,43" class="combo"/>
 <path d="M196,140 l-43,-43" class="combo"/>
 <rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
@@ -618,9 +612,11 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-20" y="-20" width="41" height="41" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(252, 196)" class="key trans keypos-34">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(252, 196)" class="key keypos-34">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 64%">&amp;toggle_mo…</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">1</tspan>
+</text>
 </g>
 <g transform="translate(308, 196)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -700,12 +696,6 @@ path.combo { stroke: #7f7f7f; }
 <text x="56" y="28" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 64%">&amp;toggle_mo…</tspan><tspan x="112" dy="1.2em" style="font-size: 64%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
 <path d="M224,140 l20,39" class="combo"/>
 <path d="M224,140 l-20,-39" class="combo"/>
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -714,11 +704,11 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em" style="font-size: 88%">Function</tspan><tspan x="224" dy="1.2em" style="font-size: 88%">Layer</tspan>
 </text>
 </a></g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="47" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M196,140 l43,43" class="combo"/>
 <path d="M196,140 l-43,-43" class="combo"/>
 <rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
@@ -958,12 +948,6 @@ path.combo { stroke: #7f7f7f; }
 <text x="56" y="28" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 64%">&amp;toggle_mo…</tspan><tspan x="112" dy="1.2em" style="font-size: 64%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
 <path d="M224,140 l20,39" class="combo"/>
 <path d="M224,140 l-20,-39" class="combo"/>
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -972,11 +956,11 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em" style="font-size: 88%">Function</tspan><tspan x="224" dy="1.2em" style="font-size: 88%">Layer</tspan>
 </text>
 </a></g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="47" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M196,140 l43,43" class="combo"/>
 <path d="M196,140 l-43,-43" class="combo"/>
 <rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
@@ -1211,12 +1195,6 @@ path.combo { stroke: #7f7f7f; }
 <text x="56" y="28" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 64%">&amp;toggle_mo…</tspan><tspan x="112" dy="1.2em" style="font-size: 64%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
 <path d="M224,140 l20,39" class="combo"/>
 <path d="M224,140 l-20,-39" class="combo"/>
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -1225,11 +1203,11 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em" style="font-size: 88%">Function</tspan><tspan x="224" dy="1.2em" style="font-size: 88%">Layer</tspan>
 </text>
 </a></g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="47" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M196,140 l43,43" class="combo"/>
 <path d="M196,140 l-43,-43" class="combo"/>
 <rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
@@ -1438,12 +1416,6 @@ path.combo { stroke: #7f7f7f; }
 <text x="56" y="28" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 64%">&amp;toggle_mo…</tspan><tspan x="112" dy="1.2em" style="font-size: 64%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
 <path d="M224,140 l20,39" class="combo"/>
 <path d="M224,140 l-20,-39" class="combo"/>
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -1452,11 +1424,11 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em" style="font-size: 88%">Function</tspan><tspan x="224" dy="1.2em" style="font-size: 88%">Layer</tspan>
 </text>
 </a></g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="47" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M196,140 l43,43" class="combo"/>
 <path d="M196,140 l-43,-43" class="combo"/>
 <rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>
@@ -1688,12 +1660,6 @@ path.combo { stroke: #7f7f7f; }
 <text x="56" y="28" class="combo tap">Q</text>
 </g>
 <g class="combo combopos-5">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">
-<tspan x="112" dy="-0.6em" style="font-size: 64%">&amp;toggle_mo…</tspan><tspan x="112" dy="1.2em" style="font-size: 64%">1</tspan>
-</text>
-</g>
-<g class="combo combopos-6">
 <path d="M224,140 l20,39" class="combo"/>
 <path d="M224,140 l-20,-39" class="combo"/>
 <rect rx="6" ry="6" x="210" y="127" width="28" height="26" class="combo"/>
@@ -1702,11 +1668,11 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em" style="font-size: 88%">Function</tspan><tspan x="224" dy="1.2em" style="font-size: 88%">Layer</tspan>
 </text>
 </a></g>
-<g class="combo combopos-7">
+<g class="combo combopos-6">
 <rect rx="6" ry="6" x="42" y="183" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-right-click-outline" xlink:href="#mdi:mouse-right-click-outline" x="47" y="187" height="18" width="18.0" class="combo tap glyph mdi:mouse-right-click-outline"/>
 </g>
-<g class="combo combopos-8">
+<g class="combo combopos-7">
 <path d="M196,140 l43,43" class="combo"/>
 <path d="M196,140 l-43,-43" class="combo"/>
 <rect rx="6" ry="6" x="182" y="127" width="28" height="26" class="combo"/>

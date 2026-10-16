@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&toggle_mode_off 1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -305,8 +305,6 @@ combos:
   k: P
 - p: [0, 1]
   k: Q
-- p: [12, 11]
-  k: '&toggle_mode_off 1'
 - p: [34, 13]
   k: Function Layer
 - p: [30, 31]
