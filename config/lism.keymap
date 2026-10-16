@@ -184,12 +184,6 @@
             timeout-ms = <125>;
         };
 
-        toggle_off {
-            bindings = <&toggle_mode_off 1>;
-            key-positions = <12 11>;
-            timeout-ms = <50>;
-        };
-
         layer5 {
             bindings = <&mo 5>;
             key-positions = <34 13>;
