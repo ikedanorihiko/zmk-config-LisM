@@ -176,19 +176,18 @@
         p {
             bindings = <&kp P>;
             key-positions = <8 9>;
-            timeout-ms = <125>;
+            timeout-ms = <90>;
         };
 
         q {
             bindings = <&kp Q>;
             key-positions = <0 1>;
-            timeout-ms = <125>;
+            timeout-ms = <90>;
         };
 
         layer5 {
             bindings = <&mo 5>;
             key-positions = <34 13>;
-            timeout-ms = <75>;
             layers = <0>;
         };
 
@@ -206,7 +205,6 @@
         layer5_2 {
             bindings = <&mo 5>;
             key-positions = <34 12>;
-            timeout-ms = <75>;
             layers = <0>;
         };
     };
