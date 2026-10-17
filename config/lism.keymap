@@ -160,6 +160,7 @@
         layer2 {
             bindings = <&mo 2>;
             key-positions = <34 23>;
+            layers = <0>;
         };
 
         Window {
@@ -188,6 +189,7 @@
             bindings = <&mo 5>;
             key-positions = <34 13>;
             timeout-ms = <75>;
+            layers = <0>;
         };
 
         Right_Click2 {
@@ -205,6 +207,7 @@
             bindings = <&mo 5>;
             key-positions = <34 12>;
             timeout-ms = <75>;
+            layers = <0>;
         };
     };
 
