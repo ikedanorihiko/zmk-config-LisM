@@ -317,3 +317,6 @@ combos:
 - p: [34, 12]
   k: Function Layer
   l: [Default Layer]
+- p: [12, 17]
+  k: '&toggle_mode_off 1'
+  l: [Default Layer]
