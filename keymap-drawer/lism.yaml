@@ -186,7 +186,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+`
-  - {t: ▽, type: trans}
+  - $$mdi:arrow-up-bold$$
   - '&mkp MB4'
   - PgDn
   - '&mkp MB5'
@@ -194,7 +194,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:arrow-down-bold$$
   - {t: ▽, type: trans}
   Device Layer:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
