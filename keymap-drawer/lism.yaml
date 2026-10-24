@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - {t: /, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - Device Layer
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:pan-up$$
@@ -227,7 +227,7 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR ALL
+  - {t: BT CLR ALL, type: held}
   - ''
   - ''
   - ''
@@ -236,7 +236,7 @@ layers:
   - $$mdi:progress-download$$
   - $$mdi:lock-open-variant-outline$$
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
