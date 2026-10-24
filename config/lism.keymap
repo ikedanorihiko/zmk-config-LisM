@@ -265,6 +265,8 @@
 &trans          &trans             &trans      &trans     &trans         &trans    &trans  &kp LA(GRAVE)  &trans          &mkp MB4         &kp PAGE_DOWN          &mkp MB5
                                    &trans      &trans     &trans                           &trans         &trans          &trans
             >;
+
+            sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
         };
 
         layer_4 {
