@@ -266,7 +266,7 @@
                                    &trans      &trans     &trans                           &trans         &trans          &trans
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         layer_4 {
