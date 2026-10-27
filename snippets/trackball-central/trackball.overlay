@@ -15,7 +15,7 @@
         irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
 //CPI設定値
-        res-cpi = <1200>;
+        res-cpi = <1300>;
 
     };
 };
