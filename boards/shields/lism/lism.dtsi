@@ -132,7 +132,8 @@
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder>;
-        triggers-per-rotation = <3>;
+//        triggers-per-rotation = <6>;
+        triggers-per-rotation = <2>;
     };
 
     split_inputs {
