@@ -15,7 +15,7 @@
         irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
 //CPI設定値
-        res-cpi = <1300>;
+        res-cpi = <1350>;
 
     };
 };
@@ -33,7 +33,7 @@
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
 
 
-        <&aml_temp_layer 1 900>;
+        <&aml_temp_layer 1 1800>;
 
 
     scroller {
