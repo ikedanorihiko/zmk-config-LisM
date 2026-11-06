@@ -300,8 +300,10 @@ combos:
   l: [Default Layer]
 - p: [17, 16]
   k: RIGHT WIN
+  l: [Default Layer]
 - p: [18, 17]
   k: $$mdi:apple-keyboard-control$$
+  l: [Default Layer]
 - p: [8, 9]
   k: P
 - p: [0, 1]
