@@ -321,4 +321,4 @@ combos:
   l: [Default Layer]
 - p: [12, 17]
   k: '&toggle_mode_off 1'
-  l: [Default Layer]
+  l: [Mouse Layer]
