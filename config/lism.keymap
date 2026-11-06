@@ -167,11 +167,13 @@
         Window {
             bindings = <&kp RIGHT_WIN>;
             key-positions = <17 16>;
+            layers = <0>;
         };
 
         Control {
             bindings = <&kp RCTRL>;
             key-positions = <18 17>;
+            layers = <0>;
         };
 
         p {
