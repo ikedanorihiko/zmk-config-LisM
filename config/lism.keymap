@@ -214,7 +214,7 @@
         togglemode_off {
             bindings = <&toggle_mode_off 1>;
             key-positions = <12 17>;
-            layers = <0>;
+            layers = <1>;
         };
     };
 
