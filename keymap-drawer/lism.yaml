@@ -207,9 +207,9 @@ layers:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - OUT BLE
+  - OUT USB
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - ''
   - ''
   - ''
