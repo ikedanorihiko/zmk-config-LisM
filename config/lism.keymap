@@ -180,12 +180,14 @@
             bindings = <&kp P>;
             key-positions = <8 9>;
             timeout-ms = <90>;
+            layers = <0>;
         };
 
         q {
             bindings = <&kp Q>;
             key-positions = <0 1>;
             timeout-ms = <90>;
+            layers = <0>;
         };
 
         layer5 {
