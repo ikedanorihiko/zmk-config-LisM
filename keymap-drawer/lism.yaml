@@ -297,28 +297,30 @@ layers:
 combos:
 - p: [34, 23]
   k: Number Layer
-  l: [Default Layer]
+  l: [Default Layer, Mouse Layer]
 - p: [17, 16]
   k: RIGHT WIN
-  l: [Default Layer]
+  l: [Default Layer, Mouse Layer]
 - p: [18, 17]
   k: $$mdi:apple-keyboard-control$$
-  l: [Default Layer]
+  l: [Default Layer, Mouse Layer]
 - p: [8, 9]
   k: P
+  l: [Default Layer, Mouse Layer]
 - p: [0, 1]
   k: Q
+  l: [Default Layer, Mouse Layer]
 - p: [34, 13]
   k: Function Layer
-  l: [Default Layer]
+  l: [Default Layer, Mouse Layer]
 - p: [30, 31]
   k: $$mdi:mouse-right-click-outline$$
 - p: [11, 18]
   k: Alt+`
-  l: [Default Layer]
+  l: [Default Layer, Mouse Layer]
 - p: [34, 12]
   k: Function Layer
-  l: [Default Layer]
+  l: [Default Layer, Mouse Layer]
 - p: [12, 17]
   k: '&toggle_mode_off 1'
   l: [Mouse Layer, Default Layer]
