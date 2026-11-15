@@ -162,6 +162,7 @@
             bindings = <&mo 2>;
             key-positions = <34 23>;
             layers = <0 1>;
+            slow-release;
         };
 
         Window {
