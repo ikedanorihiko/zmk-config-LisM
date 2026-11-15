@@ -161,39 +161,39 @@
         layer2 {
             bindings = <&mo 2>;
             key-positions = <34 23>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         Window {
             bindings = <&kp RIGHT_WIN>;
             key-positions = <17 16>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         Control {
             bindings = <&kp RCTRL>;
             key-positions = <18 17>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         p {
             bindings = <&kp P>;
             key-positions = <8 9>;
             timeout-ms = <90>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         q {
             bindings = <&kp Q>;
             key-positions = <0 1>;
             timeout-ms = <90>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         layer5 {
             bindings = <&mo 5>;
             key-positions = <34 13>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         Right_Click2 {
@@ -204,13 +204,13 @@
         us_kana {
             bindings = <&kp LA(GRAVE)>;
             key-positions = <11 18>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         layer5_2 {
             bindings = <&mo 5>;
             key-positions = <34 12>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         togglemode_off {
