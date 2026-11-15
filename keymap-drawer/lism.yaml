@@ -101,7 +101,7 @@ layers:
   Number Layer:
   - $$mdi:keyboard-esc$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+$$mdi:arrow-up-bold$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP MULTIPLY
@@ -121,8 +121,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: held}
   - $$mdi:apple-keyboard-shift$$
   - '['
-  - '{'
-  - '}'
+  - {t: '{', s: '}'}
+  - F10
   - ']'
   - KP PLUS
   - '1'
