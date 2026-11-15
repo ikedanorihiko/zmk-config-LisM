@@ -220,6 +220,7 @@
             bindings = <&toggle_mode_off 1>;
             key-positions = <12 17>;
             layers = <1 0>;
+            slow-release;
         };
     };
 
