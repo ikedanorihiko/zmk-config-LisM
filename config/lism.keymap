@@ -153,6 +153,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
         };
+
+        mod_morph_L5_up: mod_morph_L5_up {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_L5_UP";
+            bindings = <&kp DELETE>, <&kp PERCENT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     combos {
