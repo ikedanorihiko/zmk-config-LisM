@@ -157,10 +157,37 @@
         mod_morph_L5_up: mod_morph_L5_up {
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_MORPH_L5_UP";
-            bindings = <&kp DELETE>, <&kp PERCENT>;
+            bindings = <&kp F3>, <&kp UP_ARROW>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_LCTL)>;
+        };
+
+        mod_morph_L5_left: mod_morph_L5_left {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_L5_LEFT";
+            bindings = <&kp F7>, <&kp LEFT_ARROW>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_LCTL)>;
+        };
+
+        mod_morph_L5_right: mod_morph_L5_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_L5_RIGHT";
+            bindings = <&kp F8>, <&kp RIGHT_ARROW>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_LCTL)>;
+        };
+
+        mod_morph_L5_down: mod_morph_L5_down {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_L5_DOWN";
+            bindings = <&kp F12>, <&kp DOWN_ARROW>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_LCTL)>;
         };
     };
 
