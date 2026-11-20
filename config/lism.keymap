@@ -331,11 +331,11 @@
 
             display-name = "Function Layer";
             bindings = <
-&trans          &trans  &trans  &trans   &trans                    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
-&kp LCTRL       &trans  &trans  &trans   &trans                    &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&kp LEFT_SHIFT  &trans  &trans  &kp F10  &trans                    &kp F11  &kp F12  &trans  &trans  &trans
-&trans          &trans  &trans  &trans   &trans  &trans    &trans  &trans   &trans   &trans  &trans  &trans
-                        &trans  &trans   &trans                    &trans   &trans   &trans
+&trans          &trans  &trans  &trans   &trans                    &kp F1   &kp F2              &mod_morph_L5_up     &kp F4  &kp F5
+&kp LCTRL       &trans  &trans  &trans   &trans                    &kp F6   &mod_morph_L5_left  &mod_morph_L5_right  &kp F9  &kp F10
+&kp LEFT_SHIFT  &trans  &trans  &kp F10  &trans                    &kp F11  &mod_morph_L5_down  &trans               &trans  &trans
+&trans          &trans  &trans  &trans   &trans  &trans    &trans  &trans   &trans              &trans               &trans  &trans
+                        &trans  &trans   &trans                    &trans   &trans              &trans
             >;
         };
 
