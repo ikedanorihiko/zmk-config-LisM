@@ -253,7 +253,7 @@ layers:
   - {t: ▽, type: trans}
   - F1
   - F2
-  - F3
+  - {t: F3, s: '$$mdi:arrow-up-bold$$'}
   - F4
   - F5
   - $$mdi:apple-keyboard-control$$
@@ -262,8 +262,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6
-  - F7
-  - F8
+  - {t: F7, s: '$$mdi:arrow-left-bold$$'}
+  - {t: F8, s: '$$mdi:arrow-right-bold$$'}
   - F9
   - F10
   - $$mdi:apple-keyboard-shift$$
@@ -272,7 +272,7 @@ layers:
   - F10
   - {t: ▽, type: trans}
   - F11
-  - F12
+  - {t: F12, s: '$$mdi:arrow-down-bold$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
