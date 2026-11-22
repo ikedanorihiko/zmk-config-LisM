@@ -189,6 +189,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_LCTL)>;
         };
+
+        mod_morph_L5_bs: mod_morph_L5_bs {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_MORPH_L5_BS";
+            bindings = <&kp F5>, <&kp BACKSPACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_LCTL)>;
+        };
     };
 
     combos {
