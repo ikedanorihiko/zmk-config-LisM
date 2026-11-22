@@ -255,7 +255,7 @@ layers:
   - F2
   - {t: F3, s: '$$mdi:arrow-up-bold$$'}
   - F4
-  - F5
+  - {t: F5, s: '$$mdi:backspace$$'}
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
