@@ -259,7 +259,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - F6
   - {t: F7, s: '$$mdi:arrow-left-bold$$'}
