@@ -160,7 +160,7 @@
             bindings = <&kp F3>, <&kp UP_ARROW>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_LCTL)>;
+            mods = <(MOD_LALT)>;
         };
 
         mod_morph_L5_left: mod_morph_L5_left {
@@ -169,7 +169,7 @@
             bindings = <&kp F7>, <&kp LEFT_ARROW>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_LCTL)>;
+            mods = <(MOD_LALT)>;
         };
 
         mod_morph_L5_right: mod_morph_L5_right {
@@ -178,7 +178,7 @@
             bindings = <&kp F8>, <&kp RIGHT_ARROW>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_LCTL)>;
+            mods = <(MOD_LALT)>;
         };
 
         mod_morph_L5_down: mod_morph_L5_down {
@@ -187,7 +187,7 @@
             bindings = <&kp F12>, <&kp DOWN_ARROW>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_LCTL)>;
+            mods = <(MOD_LALT)>;
         };
 
         mod_morph_L5_bs: mod_morph_L5_bs {
@@ -196,7 +196,7 @@
             bindings = <&kp F5>, <&kp BACKSPACE>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_LCTL)>;
+            mods = <(MOD_LALT)>;
         };
     };
 
