@@ -256,10 +256,10 @@ layers:
   - {t: F3, s: '$$mdi:arrow-up-bold$$'}
   - F4
   - {t: F5, s: '$$mdi:backspace$$'}
-  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - F6
   - {t: F7, s: '$$mdi:arrow-left-bold$$'}
